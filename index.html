@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Wings of Comfort</title>
+</head>
+
+<body>
+    <!-- Header-block -->
+    <header>
+        <div class="container">
+            <div class="block-header" id="header">
+                <div class="header-logo">
+                    <img src="assets/img/logo.png" alt="logo">
+                </div>
+                <input type="checkbox" name="checkbox" id="burger-check" class="burger-input">
+                <nav class="header-nav">
+                    <ul class="header-nav-ul">
+                        <li><a href="#header">Главная</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#auto">Автопарк</a></li>
+                        <li><a href="#reviews">Отзывы</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#feedback" class="none-hover btn">Забронировать</a></li>
+                    </ul>
+                </nav>
+                <label for="burger-check" class="burger-label"><img src="assets/img/burger.png" alt="burger-img"
+                        class="img-burger"></label>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main-block -->
+    <main>
+        <!-- Home-block -->
+        <section class="home">
+            <div class="container">
+                <div class="block-home">
+                    <h1>Поднимитесь на крыльях комфорта<br>
+                        с нашей арендой автомобилей <span class="brown-text">премиум-класса</span></h1>
+                </div>
+            </div>
+        </section>
+
+        <!-- Search-block -->
+        <section class="search">
+            <div class="container">
+                <div class="block-search">
+                    <div class="block-search-form">
+                        <h3 class="brown-text search-h">Поиск необходимого автомобиля</h3>
+                        <form action="#" method="get" class="search-form">
+                            <div class="form-block">
+                                <label for="search-auto" class="form-label">Авто</label>
+                                <select class="form-input" id="search-auto">
+                                    <option disabled selected>Выберите марку авто</option>
+                                    <option value="car-1">Audi RS 7 4.0 л</option>
+                                    <option value="car-2">Mercedes-Benz CLS AMG 63</option>
+                                    <option value="car-3">BMW X6 M</option>
+                                    <option value="car-4">Porsche 911 Macan</option>
+                                </select>
+                            </div>
+                            <div class="form-block">
+                                <label for="search-date" class="form-label">Дата</label>
+                                <input type="date" class="form-input" name="date" id="search-date" required>
+                            </div>
+                            <div class="form-block">
+                                <label for="search-time" class="form-label">Длительность аренды</label>
+                                <input type="number" class="form-input" name="time" id="search-time" min="1" max="30"
+                                    step="1" placeholder="Выберите количество дней" required>
+                            </div>
+                            <div class="form-block-btn">
+                                <input type="submit" value="Найти авто" class="search-btn">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Advantages-block -->
+        <section class="advantages">
+            <div class="container">
+                <div class="block-advantages">
+                    <div class="title">
+                        <h4>ПОЧЕМУ МЫ ?</h4>
+                        <h2 class="brown-text">Преимущества</h2>
+                    </div>
+                    <div class="advantages-list">
+                        <div class="advantage">
+                            <div class="img-advantage">
+                                <img src="assets/img/auto.png" alt="auto">
+                            </div>
+                            <h3 class="advantage-h brown-text">Роскошный автопарк</h3>
+                            <p>Мы предлагаем только самые престижные и комфортабельные автомобили премиум класса, чтобы
+                                обеспечить нашим клиентам наилучший опыт вождения.</p>
+                        </div>
+                        <div class="advantage">
+                            <div class="img-advantage">
+                                <img src="assets/img/supp.png" alt="auto">
+                            </div>
+                            <h3 class="advantage-h brown-text">Круглосуточная поддержка</h3>
+                            <p>Наша команда экспертов всегда готова помочь вам с любыми вопросами или проблемами,
+                                связанными с арендой автомобиля.</p>
+                        </div>
+                        <div class="advantage">
+                            <div class="img-advantage">
+                                <img src="assets/img/money.png" alt="auto">
+                            </div>
+                            <h3 class="advantage-h brown-text">Гибкие условия аренды</h3>
+                            <p>Мы предлагаем различные опции аренды, которые позволяют нашим клиентами выбирать наиболее
+                                удобный график и срок аренды.</p>
+                        </div>
+                        <div class="advantage">
+                            <div class="img-advantage">
+                                <img src="assets/img/key.png" alt="auto">
+                            </div>
+                            <h3 class="advantage-h brown-text">Безопасность</h3>
+                            <p>Все наши автомобили проходят регулярную проверку, чтобы обеспечить безопасность и
+                                комфортность вождения.</p>
+                        </div>
+                        <div class="advantage">
+                            <div class="img-advantage">
+                                <img src="assets/img/time.png" alt="auto">
+                            </div>
+                            <h3 class="advantage-h brown-text">Доставка автомобиля</h3>
+                            <p>Мы можем доставить автомобиль прямо к вашей двери или в любое удобное для вас место.</p>
+                        </div>
+                        <div class="advantage">
+                            <div class="img-advantage">
+                                <img src="assets/img/like.png" alt="auto">
+                            </div>
+                            <h3 class="advantage-h brown-text">Персональный сервис</h3>
+                            <p>Наша компания стремится предоставлять высокий уровень персонализированного и удобного
+                                обслуживания каждому клиенту.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services-block -->
+        <section class="services">
+            <div class="container">
+                <div class="block-services" id="services">
+                    <div class="img-services">
+                    </div>
+                    <div class="services-list">
+                        <div class="services-title">
+                            <h4>ЧТО МЫ УМЕЕМ ?</h4>
+                            <h2 class="brown-text">Предоставляемые услуги</h2>
+                        </div>
+                        <div class="service">
+                            <div class="img-list-services">
+                                <img src="assets/img/auto2.png" alt="">
+                            </div>
+                            <div class="text-list-services">
+                                <h3 class="brown-text">Аренда автомобилей премиум-класса</h3>
+                                <p>Мы предоставляем широкий выбор автомобилей премиум-класса, которые могут
+                                    удовлетворить любые потребности клиента.</p>
+                            </div>
+                        </div>
+                        <div class="service">
+                            <div class="img-list-services">
+                                <img src="assets/img/human.png" alt="">
+                            </div>
+                            <div class="text-list-services">
+                                <h3 class="brown-text">Услуги личного водителя</h3>
+                                <p>Мы предлагаем профессиональных водителей, которые могут обеспечить безопасную и
+                                    комфортабельную поездку.</p>
+                            </div>
+                        </div>
+                        <div class="service">
+                            <div class="img-list-services">
+                                <img src="assets/img/time2.png" alt="">
+                            </div>
+                            <div class="text-list-services">
+                                <h3 class="brown-text">Доставка и забор автомобиля</h3>
+                                <p>Мы можем доставить автомобиль в любое место и забрать его по окончанию аренды, чтобы
+                                    обеспечить максимальную удобность для наших клиентов.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Auto-block -->
+        <section class="auto">
+            <div class="container">
+                <div class="block-auto" id="auto">
+                    <div class="title">
+                        <h4>НА ЧЕМ ПОЕДЕМ ?</h4>
+                        <h2 class="brown-text">Автопарк</h2>
+                    </div>
+                    <div class="auto-list">
+                        <div class="auto-select">
+                            <div class="img-auto">
+                                <img src="assets/img/select1.png" alt="">
+                            </div>
+                            <div class="rating">
+                                <img src="assets/img/Star1.png" alt="">
+                                <p>4.7</p>
+                                <p class="rate">(100+ рецензия)</p>
+                            </div>
+                            <p>Audi RS 7 4.0 л</p>
+                            <div class="characteristics">
+                                <div class="block-chr">
+                                    <div class="img-chr">
+                                        <img src="assets/img/human1.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>4 места</p>
+                                    </div>
+                                </div>
+                                <div class="block-chr">
+                                    <div class="img-chr">
+                                        <img src="assets/img/korobka.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>Автомат</p>
+                                    </div>
+                                </div>
+                                <div class="block-chr">
+                                    <div class="img-chr">
+                                        <img src="assets/img/engine.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>600 л/с</p>
+                                    </div>
+                                </div>
+                                <div class="block-chr">
+                                    <div class="img-chr">
+                                        <img src="assets/img/door.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>4 двери</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>₽ 60.000 / сутки</p>
+                        </div>
+                        <div class="auto-select">
+                            <div class="img-auto">
+                                <img src="assets/img/select2.png" alt="">
+                            </div>
+                            <div class="rating">
+                                <img src="assets/img/Star1.png" alt="">
+                                <p>4.5</p>
+                                <p class="rate">(100+ рецензия)</p>
+                            </div>
+                            <p>Mercedes-Benz CLS AMG</p>
+                            <div class="characteristics">
+                                <div class="block-chr">
+                                    <div class="img-chr">
+                                        <img src="assets/img/human1.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>4 места</p>
+                                    </div>
+                                </div>
+                                <div class="block-chr">
+                                    <div class="img-chr">
+                                        <img src="assets/img/korobka.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>Автомат</p>
+                                    </div>
+                                </div>
+                                <div class="block-chr">
+                                    <div class="img-chr">
+                                        <img src="assets/img/engine.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>585 л/с</p>
+                                    </div>
+                                </div>
+                                <div class="block-chr">
+                                    <div class="img-chr">
+                                        <img src="assets/img/door.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>4 двери</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>₽ 40.000 / сутки</p>
+                        </div>
+                        <div class="auto-select">
+                            <div class="img-auto">
+                                <img src="assets/img/select3.png" alt="">
+                            </div>
+                            <div class="rating">
+                                <img src="assets/img/Star1.png" alt="">
+                                <p>4.6</p>
+                                <p class="rate">(100+ рецензия)</p>
+                            </div>
+                            <p>BMW X6 M</p>
+                            <div class="characteristics">
+                                <div class="block-chr">
+                                    <div class="img-chr">
+                                        <img src="assets/img/human1.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>4 места</p>
+                                    </div>
+                                </div>
+                                <div class="block-chr">
+                                    <div class="img-chr">
+                                        <img src="assets/img/korobka.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>Автомат</p>
+                                    </div>
+                                </div>
+                                <div class="block-chr">
+                                    <div class="img-chr">
+                                        <img src="assets/img/engine.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>480 л/с</p>
+                                    </div>
+                                </div>
+                                <div class="block-chr">
+                                    <div class="img-chr">
+                                        <img src="assets/img/door.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>4 двери</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>₽ 50.000 / сутки</p>
+                        </div>
+                        <div class="auto-select">
+                            <div class="img-auto">
+                                <img src="assets/img/select4.png" alt="">
+                            </div>
+                            <div class="rating">
+                                <img src="assets/img/Star1.png" alt="">
+                                <p>4.9</p>
+                                <p class="rate">(100+ рецензия)</p>
+                            </div>
+                            <p>Porsche 911 Macan</p>
+                            <div class="characteristics">
+                                <div class="block-chr">
+                                    <div class="img-chr">
+                                        <img src="assets/img/human1.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>4 места</p>
+                                    </div>
+                                </div>
+                                <div class="block-chr">
+                                    <div class="img-chr">
+                                        <img src="assets/img/korobka.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>Автомат</p>
+                                    </div>
+                                </div>
+                                <div class="block-chr">
+                                    <div class="img-chr">
+                                        <img src="assets/img/engine.png" class="rate" alt="">
+                                    </div>
+                                    <div>
+                                        <p>385 л/с</p>
+                                    </div>
+                                </div>
+                                <div class="block-chr">
+                                    <div class="img-chr">
+                                        <img src="assets/img/door.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>4 двери</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>₽ 70.000 / сутки</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews-block -->
+        <div class="title" id="reviews">
+            <h4>ЧТО О НАС ДУМАЮТ?</h4>
+            <h2 class="brown-text">Ваши отзывы</h2>
+        </div>
+        <section class="reviews">
+            <h6 hidden>1</h6>
+            <div class="container">
+                <div class="block-reviews">
+                    <div class="review">
+                        <img src="assets/img/review.png" alt="" class="review-img">
+                        <div class="reviews-text">
+                            <p>"Я был приятно удивлен качеством обслуживания и предоставляемыми услугами в компании
+                                "Wings
+                                of Comfort". Автомобиль был в идеальном состоянии, удобный и комфортабельный, и я
+                                получил
+                                максимальное удовольствие от поездки. Водитель был профессиональным и вежливым, а
+                                система
+                                навигации и информационно-развлекательный центр сделали поездку максимально комфортной и
+                                удобной. </p>
+                            <p class="review-name">Мэттью Макконахи</p>
+                            <div class="review-rate">
+                                <img src="assets/img/star3.png" alt="">
+                                <p>4.5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feedback-block -->
+        <section class="feedback">
+            <div class="container">
+                <div class="title-feedback" id="feedback">
+                    <h4>ЗАИНТЕРИСОВАЛИСЬ?</h4>
+                    <h2 class="brown-text">Забронировать автомобиль</h2>
+                </div>
+                <div class="block-feedback">
+                    <form action="#" method="get" class="feedback-form">
+                        <label for="name-feedback" class="form-label">Как нам к вам обращаться?</label>
+                        <input type="text" name="name" id="name-feedback" placeholder="Введите ваше имя"
+                            class="form-input" required>
+                        <label for="tel-feedback" class="form-label">Ваш номер телефона</label>
+                        <input type="tel" name="tel" id="tel-feedback" placeholder="+ X (XXX) XXX - XX-XX"
+                            class="form-input" required>
+                        <label for="auto-feedback" class="form-label">Авто</label>
+                        <select id="auto-feedback" class="form-input">
+                            <option disabled selected>Выберите марку авто</option>
+                            <option value="car-1">Audi RS 7 4.0 л</option>
+                            <option value="car-2">Mercedes-Benz CLS AMG 63</option>
+                            <option value="car-3">BMW X6 M</option>
+                            <option value="car-4">Porsche 911 Macan</option>
+                        </select>
+                        <label for="date-feedback" class="form-label">Дата</label>
+                        <input type="date" name="date" id="date-feedback" class="form-input" required>
+                        <label for="time-feedback" class="form-label">Длительность аренды</label>
+                        <input type="number" name="time" id="time-feedback" min="1" max="30" step="1"
+                            placeholder="Выберите количество дней" class="form-input" required>
+                        <input type="submit" value="Забронировать" class="search-btn">
+                    </form>
+                    <div class="img-feedback">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer-block -->
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="footer-block-social">
+                    <div class="social-title">
+                        <span>Контакты</span>
+                        <img src="assets/img/social.png" alt="">
+                    </div>
+                    <div class="social">
+                        <img src="assets/img/tel.png" alt="">
+                        <p>+ 7 (543) 432 - 43 -12</p>
+                    </div>
+                    <div class="social">
+                        <img src="assets/img/gps.png" alt="">
+                        <p>Москва, Новый Арбат 32, к.12</p>
+                    </div>
+                </div>
+                <div class="footer-block-people">
+                    <span class="footer-list-title">Клиентам</span>
+                    <ul class="footer-list">
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Условия</a></li>
+                        <li><a href="#">Тарифы</a></li>
+                        <li><a href="#">Отзывы</a></li>
+                    </ul>
+                </div>
+                <div class="footer-block">
+                    <span class="footer-list-title">Документация</span>
+                    <ul class="footer-list">
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                        <li><a href="#">Руководство пользователя</a></li>
+                        <li><a href="#">Сертификаты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-block-btn">
+                    <a href="#header" class="none-hover btn">Наверх</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
